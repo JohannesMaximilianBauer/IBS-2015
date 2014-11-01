@@ -1,0 +1,10 @@
+/* 	Stylesheet Script 0.1 
+ 	Author Daniel Kreck 
+ */
+
+@charset "utf-8";
+
+#branding a {color: #2EA342; text-decoration: none;}
+h1, h2, h3, h4{color: #2EA342;}
+
+.seitenleiste{margin-top: 20px;}

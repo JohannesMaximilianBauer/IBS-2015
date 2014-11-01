@@ -2,81 +2,119 @@
 <html lang="de">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IBS-Project Startsite</title>
-    
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/own-stylesheet.css" type="text/css" rel="stylesheet" />
-  </head>
-  <body class="body">
-  	<header class="mainHeader">
-  		<img src="images/background-footer_lodyas.png">
-  		
-  		<nav><ul>
-  			<li class="active"><a href="#">Home</a></li>
-  			<li><a href="#">News</a></li>
-  			<li><a href="#">About</a></li>
-  			<li><a href="#">Contact</a></li>
-  			<li><a href="#">etc</a></li>
-  		</ul></nav>
-  	</header>
-  	
-  	<div class="mainConent">
-  		<div class="content">
-  			<article class="topContent">
-  				<header>
-  					 <h2><a href="#" title="First Post">First Post</a></h2>
-  				</header>
-  				
-  				<footer>
-  					<p class="postInfo">This post is written by Daniel</p>
-  				</footer>
-  				
-  				<content>
-  					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-  				</content>
-  			</article>
-  			<article class="bottomContent">
-  				<header>
-  					 <h2><a href="#" title="Second Post">Second Post</a></h2>
-  				</header>
-  				
-  				<footer>
-  					<p class="postInfo">This post is written by Daniel</p>
-  				</footer>
-  				
-  				<content>
-  					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-  				</content>
-  			</article>
-  		</div>
-  	</div>
-  	
-  	<aside class="topSidebar">
-  		<article>
-  			<h3>Top Sidebar</h3>
-  			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-  		</article>
-  	</aside>
-  	
-  	<aside class="middleSidebar">
-  		<article>
-  			<h3>Middle Sidebar</h3>
-  			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-  		</article>
-  	</aside>
-  	
-  	<aside class="bottomSidebar">
-  		<article>
-  			<h3>Bottom Sidebar</h3>
-  			<p>Lorem ipsum dolor sit amet.</p>
-  		</article>
-  	</aside>
-  	
-  	<footer class="mainFooter">
-  		<p>Copyright&copy2014 <a href="#" title="THM Daniel Kreck">Daniel Kreck</a></p>
-  	</footer>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Daniel Kreck</title>
 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/myMain.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="home">
+		<div class="container"><!-- Start container -->
+			<div class="row"><!-- Start inhalt -->
+				<div class="col col-md-12"><!-- Start col-md-12 -->
+					<header class="clearfix">
+						<section class="navbar navbar-inverse">
+							<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="index.html">About me</a></li>
+							<li><a href="index.html">Stuff</a></li>
+							<li><a href="index.html">Contact</a></li>
+							<li><a href="html/impressum.html">Impressum</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggel" data-toggle="dropdown">Test
+								</a>
+								 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    								<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+  								</ul>
+							</li>
+							</ul>
+						</section>
+						<section id="branding">
+						<a href="index.html"><h1>THM - WebEng Project by Daniel Kreck</h1></a>
+						</section>
+					</header>
+					<div class="inhalt row">
+						<aside class="col col-md-4">
+							<h4 class="seitenleiste">Seitenleiste</h4>
+							<p> 
+    						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    						</p>
+						</aside>
+						<article class="col col-md-8">
+							<h2>Inhaltlicher Kontext</h2>
+							<p>
+    						Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund!« sagte er, es war, als sollte die Scham ihn überleben. Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt. Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten, als am Ziele ihrer Fahrt die Tochter als erste sich erhob und ihren jungen Körper dehnte. »Es ist ein eigentümlicher Apparat«, sagte der Offizier zu dem Forschungsreisenden und überblickte mit einem gewissermaßen bewundernden Blick den 
+    						</p>
+						</article>
+						<div class="row">
+							<section class="col col-md-8 col-md-offset-4">
+								<div class="row">
+									<article class="col-md-4">
+										<h3>Erstens</h3>
+										<p>
+										Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. 
+										</p>
+										<a href="html/impressum.html"><button type="button" class="btn btn-info btn-sm">Impressum</button></a>
+									</article>
+									<article class="col-md-4">
+										<h3>Zweitens</h3>
+										<p>
+										Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. 
+										</p>
+										<button type="button" class="btn btn-warning">Info</button>
+									</article>
+									<article class="col-md-4">
+										<h3>Drittens</h3>
+										<p>
+										Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: der Blindtext. 
+										</p>
+										<button type="button" class="btn btn-info"> <span class="glyphicon glyphicon-envelope"></span> Contact</button>
+									</article>
+								</div>
+								<ul class="pager">
+									<li class="previous disabled"><a href="#"><span class="glyphicon glyphicon-chevron-left"></span>Zurück</a></li>
+									<li class="next"><a href="#">weiter<span class="glyphicon glyphicon-chevron-right"></span></a></li>	
+									</ul>
+							</section>
+						</div>
+					</div>
+				</div><!-- End col-md-12 -->
+			</div><!-- End inhalt -->
+		</div><!-- End container -->
+		
+		
+		
+		<div class="container">
+			<footer class="row">
+				<div class="col col-md-12">
+					<ol class="breadcrumb">
+							<li class="active">Home</li>
+							<li><a href="index.html">About me</a></li>
+							<li><a href="index.html">Stuff</a></li>
+							<li><a href="index.html">Contact</a></li>
+							<li><a href="html/impressum.html">Impressum</a></li>
+					</ol>
+				</div>
+			</footer>
+		</div>	
+  
+  	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
