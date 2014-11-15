@@ -4,23 +4,13 @@
 
 @charset "utf-8";
 
-#branding h1 {color: #2EA342; text-decoration: none;}
-h1, h2, h3, h4{color: #2EA342;}
 
-.seitenleiste{margin-top: 20px;}
+/* Home
 
-.jumbotron {
-	background-image: url(../images/tree-338211_1280.jpg);	
-	background-size:100%;
-	/* background: transparent; */
-	background-repeat: no-repeat;
-}
-
-.bild1 .bild2 .bild3 {
-	position: absolute;
-	width: auto; 
-	height: auto; 
-}
+ */
+ 
+/* Navbar
+=================================================================================================== */
 
 .navbar-wrapper {
       position: absolute;
@@ -33,9 +23,60 @@ h1, h2, h3, h4{color: #2EA342;}
       margin-right: 10%;
 }
 
+/* Carousel
+=================================================================================================== */
+
 .carousel-inner .carousel-caption p {
 	display: inline;
 	margin-left: 100%;
 }
+
+/* Content
+=================================================================================================== */
+
+.seitenleiste {
+	margin-top: 20px;
+}
+h1 {
+	color: #2EA342; 
+	text-decoration: none;
+}
+h1, h2, h3, h4{
+	color: #2EA342;
+}
+
+.Content-Container .span4 {
+    text-align: center;
+    margin-top: 30px;
+}
+.Content-Container h2 {
+    font-weight: normal;
+}
+.Content-Container .span4 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Breadcrumb
+=================================================================================================== */
+
+
+/* Impressum
+
+ */
+
+.jumbotron {
+	background-image: url(../images/tree-338211_1280.jpg);	
+	background-size:100%;
+	/* background: transparent; */
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
 
 
