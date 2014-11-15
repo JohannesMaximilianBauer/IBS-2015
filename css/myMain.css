@@ -16,8 +16,26 @@ h1, h2, h3, h4{color: #2EA342;}
 	background-repeat: no-repeat;
 }
 
-.bild1 {
+.bild1 .bild2 .bild3 {
+	position: absolute;
 	width: auto; 
 	height: auto; 
 }
+
+.navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 1%;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+
+.carousel-inner .carousel-caption p {
+	display: inline;
+	margin-left: 100%;
+}
+
 
