@@ -9,6 +9,14 @@
 
  */
  
+html, body {
+width: 100%;
+height: 100%;
+max-width: 1400px;
+margin: 0 auto;	
+}
+
+ 
 /* Navbar
 =================================================================================================== */
 
@@ -45,14 +53,19 @@ h1, h2, h3, h4{
 	color: #2EA342;
 }
 
-.Content-Container .span4 {
+.content-Container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.content-Container .span4 {
     text-align: center;
     margin-top: 30px;
 }
-.Content-Container h2 {
+.content-Container h2 {
     font-weight: normal;
 }
-.Content-Container .span4 p {
+.content-Container .span4 p {
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -64,7 +77,10 @@ h1, h2, h3, h4{
 
 /* Breadcrumb
 =================================================================================================== */
-
+.featurette-divider {
+	width: 90%;
+	margin: 0 auto;
+}
 
 /* Impressum
 
