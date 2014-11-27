@@ -4,11 +4,6 @@
 
 @charset "utf-8";
 
-
-/* Home
-
- */
- 
 html, body {
 	width: 100%;
 	height: 100%;
@@ -16,10 +11,9 @@ html, body {
 	margin: 0 auto;	
 }
 
- 
+
 /* Navbar
 =================================================================================================== */
-
 .navbar-wrapper {
       position: absolute;
       top: 0;
@@ -33,7 +27,6 @@ html, body {
 
 /* Carousel
 =================================================================================================== */
-
 .carousel-inner .carousel-caption p {
 	display: inline;
 	margin-left: 100%;
@@ -41,7 +34,6 @@ html, body {
 
 /* Content
 =================================================================================================== */
-
 .seitenleiste {
 	margin-top: 20px;
 }
@@ -70,33 +62,26 @@ h1, h2, h3, h4{
 	width:	40%;
 }
 
-/* Breadcrumb
+
+/* Page-Header
 =================================================================================================== */
-
-
-/* Impressum
-
- */
-
 .page-header {
 	margin-top: 100px;
 }
 
 
-/* Animals
-
- */
+ /* Jumbotron
+=================================================================================================== */
 .jumbotron {
-	/* background-image: url(../images/tree-338211_1280.jpg);	*/
-	/*background-image: url(../images/panorama-royal-angle-330890_1920.jpg); */
 	background-image: url(../images/peacock-536478_1280.jpg);
 	background-size:100%;
 	background-repeat: no-repeat;
 	height: 100%;
 	max-height: 500px;
-	text-align: center;
 }
 
+/* Thumbnails Hover Effect
+=================================================================================================== */
 .thumbnail:hover img{
 	z-index: 1;
 	position: absolute;
@@ -114,6 +99,8 @@ h1, h2, h3, h4{
      transform:scale(1.25);
 }
 
+/* Breadcrumb animal.html
+=================================================================================================== */
 .breadcrumbAnimalSite {
 	margin-top: 1550px;
 }
