@@ -97,6 +97,33 @@ h1, h2, h3, h4{
 	text-align: center;
 }
 
+.containerThumb {
+	z-index: 0;
+	position: absolute;
+	text-align: center;
+}
+
+.thumbnail:hover img{
+	z-index: 1;
+	position: absolute;
+	
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+.breadcrumbAnimalSite {
+	margin-top: 1550px;
+}
+
 
 
 
