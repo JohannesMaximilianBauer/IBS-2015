@@ -20,8 +20,7 @@
   </head>
   <body id="home">
   		
-
-<!-- Navbar
+	<!-- Navbar
     =================================================================================================== -->
     <div class="navbar-container">
 			<div class="row">
@@ -30,65 +29,68 @@
     <div class="navbar-wrapper">
 			<section class="navbar navbar-default">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li><a href="index.html">About me</a></li>
-					<li><a href="index.html">Stuff</a></li>
-					<li><a href="html/webform.html">Webformular deutsche Wikipedia</a></li>
-					<li><a href="html/impressum.html">Impressum</a></li>
+					<li><a href="../index.html">Home</a></li>
+					<li class="active"><a href="webform.html">Webformular deutsche Wikipedia</a></li>
+					<li><a href="impressum.html">Impressum</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggel" data-toggle="dropdown">Links</a>
+						<a href="#" class="dropdown-toggel" data-toggle="dropdown">Links Plfichtnachweise</a>
 						<ul class="dropdown-menu" role="menu">
 		    				<li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.codecademy.com/danielkreck">Codeycademy Profil</a></li>
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="#">GitHub: "Pull Request" als Reviewer </a></li>
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="#">GitHub: "Pull Request" für diese Seite</a></li>
-							<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/JohannesMaximilianBauer/webeng2013/pull/1">GitHub: "Pull Request" als Reviewer </a></li>
+							<li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/danielkreck/webeng2014/pull/1">GitHub: "Pull Request" für diese Seite</a></li>
 		  				</ul>
 					</li>
 				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					 <a class="navbar-brand"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a>
+				</ul
 			</section>
 	</div>
 	
 	</div></div></div>
   	
+  	<!-- Page-Header
+    =================================================================================================== -->
   		<div class="page-header">
   			<h1>Wikipedia <small>Suchformular</small></h1>
 		</div>
 			
-		</section>
-		<div class="container"><!-- Start container -->
-		<div class="row"><!-- Start inhalt -->
-				<div class="col col-md-12"><!-- Start col-md-12 -->
+	<!-- Wikipedia Webformular
+    =================================================================================================== -->
+		<div class="container">
+		<div class="row">
+				<div class="col col-md-12">
 					<div class="inhalt row">
 						<article class="col col-md-12">
 							<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
-  		<fieldset>
-    		<legend>Wikipedia Suche</legend>
-    		<label for=search>Type search term here <input id=search type="text" title="Type search term here" name="search" value="" /></label>
-    		<input type="submit" name="go" value="Artikel"/>
-    		<input type="submit" name="fulltext" value="Volltext" />
-  		</fieldset>
-	</form>
+  								<fieldset>
+						    		<legend>Wikipedia Suche</legend>
+						    		<label for=search>Type search term here <input id=search type="text" title="Type search term here" name="search" value="" /></label>
+						    		<input type="submit" name="go" value="Artikel"/>
+						    		<input type="submit" name="fulltext" value="Volltext" />
+  								</fieldset>
+							</form>
 	
-	<a href="http://wave.webaim.org/report#/http%3A%2F%2Fdanielkreck.cloudcontrolled.com%2Fhtml%2Fwebform.html"
-    	title="Explanation of WCAG 2.0 Level Triple-A Conformance">
-  		<img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA" alt="Level Triple-A conformance, 
-          W3C WAI Web Content Accessibility Guidelines 2.0"></a>
+							<a href="http://wave.webaim.org/report#/http%3A%2F%2Fdanielkreck.cloudcontrolled.com%2Fhtml%2Fwebform.html"
+    						title="Explanation of WCAG 2.0 Level Triple-A Conformance">
+  							<img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA" alt="Level Triple-A conformance, 
+          					W3C WAI Web Content Accessibility Guidelines 2.0"></a>
 						</article>
 					</div>
-				</div><!-- End col-md-12 -->
-			</div><!-- End inhalt -->
-		</div><!-- End container -->
+				</div>
+			</div>
+		</div>
 		
-		
+	<!-- Breadcrumb
+    =================================================================================================== -->	
 		<div class="container">
 			<footer class="row">
 				<div class="col col-md-12">
 					<ol class="breadcrumb">
 							<li><a href="../index.html">Home</a></li>
-							<li><a href="../index.html">About me</a></li>
-							<li><a href="../index.html">Stuff</a></li>
-							<li><a href="../index.html">Contact</a></li>
-							<li>Impressum</li>
+							<li class="active">Webformular deutsche Wikipedia</li>
+							<li><a href="impressum.html">Impressum</a></li>
+							<li class="pull-right"><a href="#">Back to top</a></li>
 					</ol>
 				</div>
 			</footer>
@@ -99,7 +101,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../js/bootstrap.min.js"></script>
-
-  	
   </body>
 </html>
