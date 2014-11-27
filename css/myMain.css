@@ -82,16 +82,19 @@ h1, h2, h3, h4{
 	margin-top: 100px;
 }
 
+
+/* Animals
+
+ */
 .jumbotron {
 	/* background-image: url(../images/tree-338211_1280.jpg);	*/
-	/* background-image: url(../images/panorama-royal-angle-330890_1920.jpg); */
-	background: transparent;
+	/*background-image: url(../images/panorama-royal-angle-330890_1920.jpg); */
+	background-image: url(../images/peacock-536478_1280.jpg);
 	background-size:100%;
 	background-repeat: no-repeat;
 	height: 100%;
-	min-height: 300px;
+	max-height: 500px;
 	text-align: center;
-  	background-color: transparent;
 }
 
 
