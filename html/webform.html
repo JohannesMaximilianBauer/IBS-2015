@@ -18,7 +18,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="home">
+  <body id="home" onload="document.getElementById('search').focus();";>
   		
 	<!-- Navbar
     =================================================================================================== -->
@@ -33,9 +33,9 @@
 					<li class="active"><a href="webform.html">Webformular deutsche Wikipedia</a></li>
 					<li><a href="impressum.html">Impressum</a></li>
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggel" data-toggle="dropdown">Links Pflichtnachweise</a>
+						<a href="#" class="dropdown-toggel" data-toggle="dropdown">Externe Links - Pflichtnachweise</a>
 						<ul class="dropdown-menu" role="menu">
-		    				<li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.codecademy.com/danielkreck">Codeycademy Profil</a></li>
+		    				<li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.codecademy.com/danielkreck">Codecademy Profil</a></li>
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/JohannesMaximilianBauer/webeng2013/pull/1">GitHub: "Pull Request" als Reviewer </a></li>
 							<li role="presentation"><a role="menuitem" tabindex="-1" href="https://github.com/danielkreck/webeng2014/pull/1">GitHub: "Pull Request" für diese Seite</a></li>
 		  				</ul>
@@ -62,7 +62,7 @@
 							<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
   								<fieldset>
 						    		<legend>Wikipedia Suche</legend>
-						    		<label for=search>Type search term here <input id=search type="text" title="Type search term here" name="search" value="" /></label>
+						    		<label for="search" tabindex="1">Type search term here <input id="search" type="text" title="Type search term here" name="search" value="" /></label>
 						    		<input type="submit" name="go" value="Artikel"/>
 						    		<input type="submit" name="fulltext" value="Volltext" />
   								</fieldset>
